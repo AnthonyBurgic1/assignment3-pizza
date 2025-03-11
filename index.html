@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order</title>
+    <a href="../Assignment 3/index.html"></a>
+    <link href="menu.html">
+    <link rel="stylesheet" href="style.css/styles.css">
+    <script src="js/script.js" defer></script>
+
+</head>
+<body>
+    <h1>Order Your Pizza</h1>
+    <form id="pizzaForm">
+        <label for="customerName">Your Name:</label>
+        <input type="text" id="customerName" required>
+        
+        <label for="size">Choose Pizza Size:</label>
+        <select id="size" required>
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+        </select>
+        
+        <fieldset>
+            <legend>Choose Toppings:</legend>
+            <input type="checkbox" id="cheese" value="Cheese"> <label for="cheese">Cheese</label>
+            <input type="checkbox" id="pepperoni" value="Pepperoni"> <label for="pepperoni">Pepperoni</label>
+            <input type="checkbox" id="mushrooms" value="Mushrooms"> <label for="mushrooms">Mushrooms</label>
+            <input type="checkbox" id="olives" value="Olives"> <label for="olives">Olives</label>
+        </fieldset>
+        
+        <label for="specialInstructions">Special Instructions:</label>
+        <textarea id="specialInstructions" rows="3"></textarea>
+        
+        <button type="button" id="orderButton">Order</button>
+    </form>
+    
+    <h2>Your Pizza Order:</h2>
+    <div id="orderSummary"></div>
+    
+    <p id="studentInfo"></p>
+</body>
+</html>

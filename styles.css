@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8d7a4;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #c0392b;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* Navigation */
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #d35400;
+}
+
+/* Form Section */
+.order-section, .order-summary {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 50%;
+    box-shadow: 0px 0px 10px gray;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+fieldset {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button, .order-button {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, .order-button:hover {
+    background-color: #d35400;
+}
+
+/* Order Summary */
+.order-summary {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #c0392b;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Flex Container */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: #e67e22;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+/* Pizza Card Styles */
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    text-align: center;
+    width: 250px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 16px;
+    color: #333;
+}
